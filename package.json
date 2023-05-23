@@ -1,0 +1,34 @@
+{
+    "name": "react_component_library",
+    "version": "0.0.1",
+    "description": "Custom Component library for React",
+    "repository": "https://github.com/McEazy2700/react_component_library.git",
+    "author": "Ezekiel Victor <codeepoch@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "rollup": "rollup -c --bundleConfigAsCjs"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^25.0.0",
+        "@rollup/plugin-node-resolve": "^15.0.2",
+        "@rollup/plugin-typescript": "^11.1.1",
+        "@types/react": "^18.2.6",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.23",
+        "react": "^18.2.0",
+        "react-icons": "^4.8.0",
+        "rollup": "^3.23.0",
+        "rollup-plugin-dts": "^5.3.0",
+        "tailwindcss": "^3.3.2",
+        "tslib": "^2.5.2",
+        "typescript": "^5.0.4"
+    },
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "files": [
+        "dist"
+    ],
+    "types": "dist/index.d.ts",
+    "type": "module"
+}
