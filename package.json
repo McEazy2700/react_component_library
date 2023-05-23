@@ -1,11 +1,10 @@
 {
-    "name": "react_component_library",
-    "version": "0.0.1",
+    "name": "@McEazy2700/react_component_library",
+    "version": "0.0.2",
     "description": "Custom Component library for React",
     "repository": "https://github.com/McEazy2700/react_component_library.git",
     "author": "Ezekiel Victor <codeepoch@gmail.com>",
     "license": "MIT",
-    "private": false,
     "scripts": {
         "rollup": "rollup -c --bundleConfigAsCjs"
     },
@@ -30,5 +29,8 @@
         "dist"
     ],
     "types": "dist/index.d.ts",
-    "type": "module"
+    "type": "module",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/McEazy2700"
+    }
 }
